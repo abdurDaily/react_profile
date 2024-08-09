@@ -1,0 +1,12 @@
+:root{
+    --ubuntu: "Ubuntu", sans-serif;
+    --roboto: "Roboto", sans-serif;
+    --poppins: "Poppins", sans-serif;
+}
+
+body{
+    font-family: var(--poppins);
+}
+*{
+    font-size: 10px;
+}

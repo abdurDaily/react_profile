@@ -1,0 +1,20 @@
+.navbar a{
+    font-size: 1.4rem;
+}
+.navbar-nav svg{
+    font-size: 1.4rem;
+}
+.navbar-toggler{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: transparent;
+}
+.navbar-toggler svg{
+    font-size: 2rem;
+    color: #000;
+}
+.navbar-brand{
+    font-size: 2rem !important;
+}
+

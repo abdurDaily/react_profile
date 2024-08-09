@@ -1,0 +1,58 @@
+:root{
+    --banner_clr:#F5F8FC;
+}
+
+#banner{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--banner_clr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner img{
+    height: 350px;
+}
+#banner h4{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+#banner span{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+#banner p{
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+#banner .icons{
+    padding: 10px 0;
+}
+#banner .icons span{
+    margin-right: 12px;
+    display: inline-block;
+}
+#banner .icons span svg{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    color: #888888;
+}
+
+
+
+@media (max-width: 991.98px) { 
+    #banner{
+        text-align: center;
+        height: 120vh;
+    }
+    #banner .container{
+        padding: 100px 0 20px 0;
+    }
+    #banner .banner_details{
+        padding: 3rem;
+    }
+ }

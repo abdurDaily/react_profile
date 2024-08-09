@@ -1,0 +1,14 @@
+.navbar{
+    z-index: 55;
+    background-color: transparent !important;
+}
+
+
+@media (max-width: 991.98px) { 
+    .navbar{
+        padding: 2rem 0;
+        background-color: #fff !important;
+        box-shadow: 3px 3px 30px #a098981f;
+    }
+        
+}
