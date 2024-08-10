@@ -1,0 +1,10 @@
+.icons svg{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    color: #888888;
+}
+.icons span{
+    margin-right: 12px;
+    display: inline-block;
+}

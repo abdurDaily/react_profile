@@ -8,5 +8,6 @@ body{
     font-family: var(--poppins);
 }
 *{
+    /* outline: 1px solid; */
     font-size: 10px;
 }

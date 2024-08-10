@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import { NavLink } from 'react-router-dom';
@@ -8,9 +8,22 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import './Navbar.css';
 
 const Navbar = () => {
+
+    let navbar = useRef();
+    let scrollToTop = 0;
+    window.addEventListener('scroll', ()=>{
+       if(window.scrollY > 200){
+          navbar.current.classList.add('active');
+        }else{
+           navbar.current.classList.remove('active');
+       }
+    //    console.log(window.scrollY);
+       
+    });
+
     return (
         <>
-           <nav className="navbar navbar-expand-lg ">
+           <nav ref={navbar} className="navbar navbar-expand-lg ">
              <div className="container">
                 <a className="navbar-brand" href="#">abdurDaily</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

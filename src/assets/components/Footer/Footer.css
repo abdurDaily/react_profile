@@ -1,0 +1,81 @@
+footer{
+background-color: #333333;
+color: #ffffff;
+padding: 50px 0;
+}
+
+footer .first_foot a{
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 0;
+    display: inline-block;
+}
+footer .first_foot p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+footer .foot_desc h5{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer .foot_desc td svg{
+    font-size: 2rem;
+}
+
+footer .foot_sec td {
+    padding: 0px 0.5rem 1rem 0;
+}
+footer .foot_sec td a {
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .foot_third a{
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 1rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+footer .foot_third a:hover{
+    margin-left: 1rem;
+}
+
+footer .foot_fourth .btn-group{
+    width: 100%;
+    margin-top: 1rem;
+}
+footer .foot_fourth .form-control{
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    padding: 1rem;
+    width: 75%;
+}
+
+footer .foot_fourth svg{
+    font-size: 2rem;
+}
+footer .foot_fourth label{
+    font-size: 1.2rem;
+}
+.copy_right{
+    background-color: #3b3e3f;
+    padding: 1rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+.copy_right p{
+    font-size: 1.3rem;
+    margin-bottom: 0 !important;
+}
+@media (max-width: 576px) {
+    footer{
+        padding: 0 2rem 2rem 2rem;
+    }
+ }
