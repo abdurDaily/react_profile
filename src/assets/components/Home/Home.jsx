@@ -5,6 +5,7 @@ import Banner from '../sub_components/Banner/Banner';
 import './Home.css';
 import About from '../About/About';
 import Footer from '../Footer/Footer';
+import Content from '../About/Content/Content';
 
 const Home = () => {
     return (
@@ -12,13 +13,9 @@ const Home = () => {
             <Helmet>
                 <title>Home</title>
             </Helmet>
-
             <Navbar />
-
-
-           <Banner />
-
-           
+            <Banner />
+            <Content />
            <Footer />
         </div>
     );

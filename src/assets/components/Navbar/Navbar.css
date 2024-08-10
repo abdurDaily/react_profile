@@ -1,19 +1,20 @@
 .navbar{
     background-color: #F5F8FC;
-    /* animation: revNavAnimate 0.2s linear; */
+    animation: revNavAnimate 0.5s linear;
 }
 .navbar.active{
     animation: navAnimate 0.5s linear;
     position: fixed;
     width: 100% ;
     background-color: #FFFFFF;
+    box-shadow: 3px 3px 30px #88888850;
 }
 @keyframes revNavAnimate{
     0% {
-        transform: translateY(0%);
+        transform: translateY(100%);
     }   
     100%{
-        transform: translateY(-100%);
+        transform: translateY(0%);
 
     }
 }

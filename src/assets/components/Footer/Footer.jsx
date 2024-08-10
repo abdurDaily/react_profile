@@ -5,6 +5,7 @@ import Social from '../sub_components/Social_Icons/Social';
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import { IoMdArrowDropright } from "react-icons/io";
 
 
 const Footer = () => {
@@ -38,11 +39,11 @@ const Footer = () => {
                         <div className="col-xl-3 foot_desc foot_third">
                             <h5>Quick Links</h5>
                             <table>
-                                <tr><td><a href="#">Home</a></td></tr>
-                                <tr><td><a href="#">About</a></td></tr>
-                                <tr><td><a href="#">Blog's</a></td></tr>
-                                <tr><td><a href="#">Service's</a></td></tr>
-                                <tr><td><a href="#">Contact</a></td></tr>
+                                <tr><td><a href="#"> <IoMdArrowDropright /> Home</a></td></tr>
+                                <tr><td><a href="#"> <IoMdArrowDropright /> About</a></td></tr>
+                                <tr><td><a href="#"> <IoMdArrowDropright /> Blog's</a></td></tr>
+                                <tr><td><a href="#"> <IoMdArrowDropright /> Service's</a></td></tr>
+                                <tr><td><a href="#"> <IoMdArrowDropright /> Contact</a></td></tr>
                             </table>
                         </div>
                         <div className="col-xl-3 foot_desc foot_fourth ">
