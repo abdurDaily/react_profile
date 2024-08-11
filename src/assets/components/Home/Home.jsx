@@ -6,6 +6,7 @@ import './Home.css';
 import About from '../About/About';
 import Footer from '../Footer/Footer';
 import Content from '../About/Content/Content';
+import Service from '../Services/Service';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Navbar />
             <Banner />
             <Content />
+            <Service />
            <Footer />
         </div>
     );

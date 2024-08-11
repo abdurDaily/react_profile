@@ -1,0 +1,36 @@
+#service{
+    background-color: #F5F8FC;
+    padding: 5rem 0;
+}
+#service .row{
+    padding-top: 2rem;
+}
+#service .service_card{
+    background-color: #fff;
+    padding: 2rem 3rem;
+    box-shadow: 0.3rem 0.3rem 3rem #8888881e;
+}
+#service .service_card .logo svg{
+    font-size: 3rem;
+}
+#service .service_card h4{
+    padding: 5px 0;
+    font-size: 2rem;
+    font-family: var(--ubuntu);
+}
+#service .service_card a{
+    color: #7E7E7E;
+    font-family: var(--ubuntu);
+}
+#service .service_title{
+    font-size: 2rem;
+}
+#service .service_pera{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 992px) { 
+    #service .row{
+        padding: 2rem;
+    }
+}

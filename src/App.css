@@ -11,3 +11,6 @@ body{
     /* outline: 1px solid; */
     font-size: 10px;
 }
+a{
+    text-decoration: none;
+}

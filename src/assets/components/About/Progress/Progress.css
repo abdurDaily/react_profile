@@ -1,0 +1,24 @@
+.progress-bar{
+    background-color: #34495E !important;
+}
+.progress{
+    border-radius: 0 !important;
+}
+.bar{
+    border: 0.1rem solid #34495E;
+    padding: 0.2rem;
+}
+label{
+    font-weight: bold;
+}
+.seemore{
+    background-color: transparent;
+    border: 2px solid #34495E;
+    display: inline-block;
+    padding: 1rem 3rem ;
+    margin-top: 3rem;
+    color: #34495E;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
