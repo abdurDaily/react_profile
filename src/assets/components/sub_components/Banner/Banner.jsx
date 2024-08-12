@@ -22,7 +22,9 @@ const Banner = () => {
                                     <p>Welcome to my website! I’m  a passionate full-stack developer with a deep love for coding and teaching. Currently, I’m a faculty member in the Web and Software department at Creative IT Institute, where I help aspiring developers build their futures. My expertise spans a range of cutting-edge technologies, including HTML, CSS, JavaScript, Bootstrap, ReactJS, jQuery, PHP, and Laravel. With a strong focus on delivering practical, industry-relevant knowledge, I’m dedicated to guiding my students toward success in the ever-evolving world of web development.</p>
 
                                     <Social />
-                                    <Btn />
+                                    <Btn href="#">
+                                        Download My CV
+                                    </Btn>
                                 </div>
                             </div>
                         </div>

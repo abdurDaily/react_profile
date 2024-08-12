@@ -18,6 +18,10 @@ const Home = () => {
             <Banner />
             <Content />
             <Service />
+
+
+
+
            <Footer />
         </div>
     );

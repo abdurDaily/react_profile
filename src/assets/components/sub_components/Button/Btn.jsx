@@ -1,10 +1,10 @@
 import React from 'react';
 import './Btn.css';
 
-const Btn = () => {
+const Btn = ({children , href}) => {
     return (
         <div>
-            <a download className='cmn_btn' href="#">Download My CV</a>
+            <a  className='cmn_btn' href={href}>{children}</a>
         </div>
     );
 };
