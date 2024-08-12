@@ -9,6 +9,12 @@
     background-color: #fff;
     padding: 2rem 3rem;
     box-shadow: 0.3rem 0.3rem 3rem #8888881e;
+    cursor: pointer;
+}
+#service .service_card:hover{
+    background-color: #333333;
+    padding: 2rem 3rem;
+    color: #fff;
 }
 #service .service_card .logo svg{
     font-size: 3rem;
@@ -31,6 +37,9 @@
 
 @media (max-width: 992px) { 
     #service .row{
+        padding: 2rem;
+    }
+    #service .service_contains{
         padding: 2rem;
     }
 }

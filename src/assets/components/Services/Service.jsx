@@ -8,9 +8,11 @@ const Service = () => {
         <div>
             <section id='service'>
                 <div className="container">
-                    <h4 className='service_title'>What I Do?</h4>
-                    <p className='service_pera'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                    ipsum sit nibh amet egestas tellus.</p>
+                    <div className="service_contains">
+                        <h4 className='service_title'>What I Do?</h4>
+                        <p className='service_pera'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                        ipsum sit nibh amet egestas tellus.</p>
+                    </div>
                     <div className="row g-5">
                         <div className="col-lg-3 ">
                             <div className="service_card">

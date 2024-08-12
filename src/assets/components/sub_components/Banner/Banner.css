@@ -1,9 +1,8 @@
 :root{
     --banner_clr:#F5F8FC;
 }
-
 #banner{
-    min-height: calc(100vh - 71px);
+    min-height: calc(62rem - 71px);
     background-color: var(--banner_clr);
     display: flex;
     align-items: center;
@@ -27,6 +26,21 @@
 #banner .icons{
     padding: 10px 0;
 }
+#banner .banner_img{
+    position: relative;
+    z-index: 1;
+}
+#banner .banner_img::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    border: 5px solid #888888;
+    left: -2rem;
+    top: -3rem;
+    z-index: -1;
+}
+
 
 
 
@@ -40,5 +54,8 @@
     }
     #banner .banner_details{
         padding: 3rem;
+    }
+    #banner .banner_img::before{
+        display: none;
     }
  }

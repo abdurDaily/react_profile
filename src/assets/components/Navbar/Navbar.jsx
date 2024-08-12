@@ -10,14 +10,12 @@ import './Navbar.css';
 const Navbar = () => {
 
     let navbar = useRef();
-    let scrollToTop = 0;
     window.addEventListener('scroll', ()=>{
        if(window.scrollY > 200){
           navbar.current.classList.add('active');
         }else{
            navbar.current.classList.remove('active');
        }
-    //    console.log(window.scrollY);
        
     });
 
