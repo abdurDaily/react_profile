@@ -21,7 +21,7 @@ const Social = () => {
           </a>
         </span>
         <span>
-          <a href="#">
+          <a target="_blank" href="https://x.com/abdurDaily">
             <IoLogoTwitter />
           </a>
         </span>

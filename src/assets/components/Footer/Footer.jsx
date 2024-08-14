@@ -22,10 +22,13 @@ const Footer = () => {
                         <div className="col-xl-3 foot_desc foot_sec">
                             <h5>Contact</h5>
                             <table>
+                                <thead>
                                 <tr>
                                     <td> <span><MdOutlinePhoneInTalk /></span> </td>
                                     <td><a href="tel:01647465050">+880 1647465050</a></td>
                                 </tr>
+                                </thead>
+                                <tbody>
                                 <tr>
                                     <td><span><MdOutlineEmail /></span></td>
                                     <td><a href="mailto:abdurdaily@gmail.com">abdurdaily@gmail.com</a></td>
@@ -34,16 +37,19 @@ const Footer = () => {
                                     <td> <span><FaLocationDot /></span> </td>
                                     <td> <span>9 No Kapasgola Road, Telpottir Mor, Chawk Bazar, Chattogram</span> </td>
                                 </tr>
+                                </tbody>
                             </table>
                         </div>
                         <div className="col-xl-3 foot_desc foot_third">
                             <h5>Quick Links</h5>
                             <table>
+                                <tbody>
                                 <tr><td><a href="#"> <IoMdArrowDropright /> Home</a></td></tr>
                                 <tr><td><a href="#"> <IoMdArrowDropright /> About</a></td></tr>
                                 <tr><td><a href="#"> <IoMdArrowDropright /> Blog's</a></td></tr>
                                 <tr><td><a href="#"> <IoMdArrowDropright /> Service's</a></td></tr>
                                 <tr><td><a href="#"> <IoMdArrowDropright /> Contact</a></td></tr>
+                                </tbody>
                             </table>
                         </div>
                         <div className="col-xl-3 foot_desc foot_fourth ">

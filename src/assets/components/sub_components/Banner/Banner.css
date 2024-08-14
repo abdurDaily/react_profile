@@ -39,9 +39,17 @@
     left: -2rem;
     top: -3rem;
     z-index: -1;
+    animation: box_animate 2s linear alternate infinite;
 }
+@keyframes box_animate {
+    0%{
+      transform: translateX(-10%);  
+    }
+    100%{
+        transform: translateX(0%);  
 
-
+    }
+}
 
 
 @media (max-width: 1200px) { 

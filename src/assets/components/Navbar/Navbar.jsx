@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import { NavLink } from 'react-router-dom';
@@ -9,19 +9,34 @@ import './Navbar.css';
 
 const Navbar = () => {
 
+    useEffect(()=>{
+        const scrollFixed = ()=>{
+            if(window.scrollY > 200){
+               navbar.current.classList.add('active');
+             }else{
+                navbar.current.classList.remove('active');
+            }
+            
+         }
+        window.addEventListener('scroll', scrollFixed);
+
+         ()=>{
+
+             return window.removeEventListener('scroll', scrollFixed)
+         }
+        
+    },[])
+
     let navbar = useRef();
-    window.addEventListener('scroll', ()=>{
-       if(window.scrollY > 200){
-          navbar.current.classList.add('active');
-        }else{
-           navbar.current.classList.remove('active');
-       }
-       
-    });
+    
 
     return (
         <>
-           <nav ref={navbar} className="navbar navbar-expand-lg ">
+
+
+ 
+
+         <nav  ref={navbar} className="navbar navbar-expand-lg ">
              <div className="container">
                 <a className="navbar-brand" href="#">abdurDaily</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,6 +57,8 @@ const Navbar = () => {
                 </div>
              </div>
          </nav> 
+
+
         </>
     );
 };
