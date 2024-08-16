@@ -29,6 +29,7 @@ const About = () => {
 
 
 
+            <p id="example">The stroke of this text is red.</p>
             
 
 

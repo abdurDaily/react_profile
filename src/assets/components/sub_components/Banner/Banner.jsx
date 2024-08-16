@@ -30,6 +30,10 @@ const Banner = () => {
                         </div>
                        
                     </div>
+
+                    <div className="abdur_daily">
+                        <h2>Abdur</h2>
+                    </div>
                 </div>
             </section>
 

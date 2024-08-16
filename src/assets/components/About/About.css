@@ -1,0 +1,10 @@
+#example {
+    font-size: 6em;
+    margin: 0;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    color: #000;
+    -webkit-text-stroke-width: 2px;
+  }

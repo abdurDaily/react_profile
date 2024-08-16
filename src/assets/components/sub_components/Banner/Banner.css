@@ -67,3 +67,23 @@
         display: none;
     }
  }
+
+#banner .container{
+    position: relative;
+}
+#banner .container .abdur_daily{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+#banner .container .abdur_daily h2{
+    font-size:12rem ;
+    text-transform: uppercase;
+    z-index: -55;
+    letter-spacing: 2rem;
+    -webkit-text-fill-color: transparent;
+    color: #000;
+    -webkit-text-stroke-width: 1.5px;
+    opacity: 0.1;
+}
